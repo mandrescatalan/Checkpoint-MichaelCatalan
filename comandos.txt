@@ -1,0 +1,29 @@
+  105  git clone https://github.com/mandrescatalan/Checkpoint-MichaelCatalan.git
+  106  cd Checkpoint-MichaelCatalan/
+  107  touch main.js index.html
+  108  git add .
+  109  git commit -m "commit 01 Michael Catalan"
+  110  git push origin master
+  111  git checkout -b feature
+  112  mkdir Hardware Software SeguridadInformatica
+  113  cd Hardware/
+  114  touch resumen.txt
+  115  cd ..
+  116  cd Software/
+  117  touch resumen.txt
+  118  cd ..
+  119  cd SeguridadInformatica/
+  120  touch resumen.txt
+  121  cd ..
+  122  git add.
+  123  git add .
+  124  git commit -m "commit 02 Michael Catalan"
+  125  git push
+  126  git push origin feature
+  127  git checkout master
+  128  ls
+  129  mv main.js resumenHardware.txt
+  130  mv index.html resumenSoftware.txt
+  131  ls
+  132  touch comandos.txt
+  133  history
